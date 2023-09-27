@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "apporusadditions",
+	"version": "${version}",
+	"name": "Apporu's Additions",
+	"description": "Hobby Project by Apporu!",
+	"authors": [
+		"Apporu"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/apporusadditions/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.apporu.apporusaddtions.ApporusAdditions"
+		],
+		"client": [
+			"net.apporu.apporusaddtions.ApporusAdditionsClient"
+		],
+		"fabric-datagen": [
+			"net.apporu.apporusaddtions.ApporusAdditionsDataGenerator"
+		]
+	},
+	"mixins": [
+		"apporusadditions.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.14.22",
+		"minecraft": "~1.20.2",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}

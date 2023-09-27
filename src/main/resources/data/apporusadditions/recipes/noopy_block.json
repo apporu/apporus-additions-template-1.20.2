@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "N": {
+      "item": "apporusadditions:noopy"
+    }
+  },
+    "pattern": [
+      "NNN",
+      "NNN",
+      "NNN"
+    ],
+    "result": {
+      "item": "apporusadditions:noopy_block"
+    },
+    "show_notification": true
+  }
+}

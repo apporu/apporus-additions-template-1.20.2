@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "apporusadditions:block/noopy_block"
+  }
+}
